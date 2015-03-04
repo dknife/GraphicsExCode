@@ -25,7 +25,7 @@ int main (int argc, char * argv[]) {
     glutInitDisplayMode(GLUT_SINGLE|GLUT_RGBA);
     glutInitWindowPosition(0, 0);
     glutInitWindowSize(512, 512);
-    glutCreateWindow("A Triangle");  // ^{\it 윈도우 생성}^
+    glutCreateWindow("Hello Triangle!");  // ^{\it 윈도우 생성}^
     glClearColor(1.0, 0.0, 0.0, 1.0);
     glutDisplayFunc(myDisplay);	// ^{\it 디스플레이 콜백 등록}^
     glutMainLoop();				// ^{\it 이벤트 루프로}^

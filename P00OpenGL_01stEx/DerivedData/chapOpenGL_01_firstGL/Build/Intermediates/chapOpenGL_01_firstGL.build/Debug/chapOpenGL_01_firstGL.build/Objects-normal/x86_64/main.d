@@ -1,2 +1,2 @@
 dependencies: \
-  /Users/ymkang/myWork_iMac/Mac_3_DocsPresentation/교재개발/OGL_ExampleCode/chapOpenGL_01_firstGL/chapIntro_01_firstGL/main.cpp
+  /Users/ymkang/myWork_iMac/Mac_3_DocsPresentation/교재개발/GraphicsExCode/P00OpenGL_01stEx/chapIntro_01_firstGL/main.cpp
