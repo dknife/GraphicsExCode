@@ -1,0 +1,253 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6DC0A3091A8B4D9A00EE10AF /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6DC0A3081A8B4D9A00EE10AF /* main.cpp */; };
+		6DC0A3111A8B4DAB00EE10AF /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DC0A30F1A8B4DAB00EE10AF /* GLUT.framework */; };
+		6DC0A3121A8B4DAB00EE10AF /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DC0A3101A8B4DAB00EE10AF /* OpenGL.framework */; };
+		6DC0A3151A8B4DE700EE10AF /* STBImage.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6DC0A3131A8B4DE700EE10AF /* STBImage.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		6DC0A3031A8B4D9A00EE10AF /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		6DC0A3051A8B4D9A00EE10AF /* chapTexture05_multiTexture */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = chapTexture05_multiTexture; sourceTree = BUILT_PRODUCTS_DIR; };
+		6DC0A3081A8B4D9A00EE10AF /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		6DC0A30F1A8B4DAB00EE10AF /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = System/Library/Frameworks/GLUT.framework; sourceTree = SDKROOT; };
+		6DC0A3101A8B4DAB00EE10AF /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		6DC0A3131A8B4DE700EE10AF /* STBImage.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = STBImage.cpp; sourceTree = "<group>"; };
+		6DC0A3141A8B4DE700EE10AF /* STBImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STBImage.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6DC0A3021A8B4D9A00EE10AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DC0A3111A8B4DAB00EE10AF /* GLUT.framework in Frameworks */,
+				6DC0A3121A8B4DAB00EE10AF /* OpenGL.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6DC0A2FC1A8B4D9A00EE10AF = {
+			isa = PBXGroup;
+			children = (
+				6DC0A30F1A8B4DAB00EE10AF /* GLUT.framework */,
+				6DC0A3101A8B4DAB00EE10AF /* OpenGL.framework */,
+				6DC0A3071A8B4D9A00EE10AF /* chapTexture05_multiTexture */,
+				6DC0A3061A8B4D9A00EE10AF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6DC0A3061A8B4D9A00EE10AF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6DC0A3051A8B4D9A00EE10AF /* chapTexture05_multiTexture */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6DC0A3071A8B4D9A00EE10AF /* chapTexture05_multiTexture */ = {
+			isa = PBXGroup;
+			children = (
+				6DC0A3131A8B4DE700EE10AF /* STBImage.cpp */,
+				6DC0A3141A8B4DE700EE10AF /* STBImage.h */,
+				6DC0A3081A8B4D9A00EE10AF /* main.cpp */,
+			);
+			path = chapTexture05_multiTexture;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6DC0A3041A8B4D9A00EE10AF /* chapTexture05_multiTexture */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6DC0A30C1A8B4D9A00EE10AF /* Build configuration list for PBXNativeTarget "chapTexture05_multiTexture" */;
+			buildPhases = (
+				6DC0A3011A8B4D9A00EE10AF /* Sources */,
+				6DC0A3021A8B4D9A00EE10AF /* Frameworks */,
+				6DC0A3031A8B4D9A00EE10AF /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = chapTexture05_multiTexture;
+			productName = chapTexture05_multiTexture;
+			productReference = 6DC0A3051A8B4D9A00EE10AF /* chapTexture05_multiTexture */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6DC0A2FD1A8B4D9A00EE10AF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "young-min kang";
+				TargetAttributes = {
+					6DC0A3041A8B4D9A00EE10AF = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+				};
+			};
+			buildConfigurationList = 6DC0A3001A8B4D9A00EE10AF /* Build configuration list for PBXProject "chapTexture05_multiTexture" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6DC0A2FC1A8B4D9A00EE10AF;
+			productRefGroup = 6DC0A3061A8B4D9A00EE10AF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6DC0A3041A8B4D9A00EE10AF /* chapTexture05_multiTexture */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6DC0A3011A8B4D9A00EE10AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DC0A3091A8B4D9A00EE10AF /* main.cpp in Sources */,
+				6DC0A3151A8B4DE700EE10AF /* STBImage.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		6DC0A30A1A8B4D9A00EE10AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		6DC0A30B1A8B4D9A00EE10AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		6DC0A30D1A8B4D9A00EE10AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6DC0A30E1A8B4D9A00EE10AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6DC0A3001A8B4D9A00EE10AF /* Build configuration list for PBXProject "chapTexture05_multiTexture" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6DC0A30A1A8B4D9A00EE10AF /* Debug */,
+				6DC0A30B1A8B4D9A00EE10AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6DC0A30C1A8B4D9A00EE10AF /* Build configuration list for PBXNativeTarget "chapTexture05_multiTexture" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6DC0A30D1A8B4D9A00EE10AF /* Debug */,
+				6DC0A30E1A8B4D9A00EE10AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6DC0A2FD1A8B4D9A00EE10AF /* Project object */;
+}

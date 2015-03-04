@@ -1,0 +1,275 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6DD8772A1A91B8CF00A3EC44 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6DD877291A91B8CF00A3EC44 /* main.cpp */; };
+		6DD877321A91B8F300A3EC44 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DD877301A91B8F300A3EC44 /* GLUT.framework */; };
+		6DD877331A91B8F300A3EC44 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DD877311A91B8F300A3EC44 /* OpenGL.framework */; };
+		6DD877361A91B93800A3EC44 /* STBImage.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6DD877341A91B93800A3EC44 /* STBImage.cpp */; };
+		6DD877391A91BA1500A3EC44 /* mesh.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6DD877371A91BA1500A3EC44 /* mesh.cpp */; };
+		6DD8773E1A91BB4E00A3EC44 /* textRead.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6DD8773C1A91BB4E00A3EC44 /* textRead.cpp */; };
+		6DD877411A91BBAC00A3EC44 /* texture.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6DD8773F1A91BBAC00A3EC44 /* texture.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		6DD877241A91B8CF00A3EC44 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		6DD877261A91B8CF00A3EC44 /* chapTangetSpace01_meshTangent */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = chapTangetSpace01_meshTangent; sourceTree = BUILT_PRODUCTS_DIR; };
+		6DD877291A91B8CF00A3EC44 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		6DD877301A91B8F300A3EC44 /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = System/Library/Frameworks/GLUT.framework; sourceTree = SDKROOT; };
+		6DD877311A91B8F300A3EC44 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		6DD877341A91B93800A3EC44 /* STBImage.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = STBImage.cpp; sourceTree = "<group>"; };
+		6DD877351A91B93800A3EC44 /* STBImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STBImage.h; sourceTree = "<group>"; };
+		6DD877371A91BA1500A3EC44 /* mesh.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = mesh.cpp; sourceTree = "<group>"; };
+		6DD877381A91BA1500A3EC44 /* mesh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mesh.h; sourceTree = "<group>"; };
+		6DD8773A1A91BB0700A3EC44 /* shader.vert */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; name = shader.vert; path = DerivedData/chapTangetSpace01_meshTangent/Build/Products/Debug/shader.vert; sourceTree = SOURCE_ROOT; };
+		6DD8773B1A91BB1E00A3EC44 /* shader.frag */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; name = shader.frag; path = DerivedData/chapTangetSpace01_meshTangent/Build/Products/Debug/shader.frag; sourceTree = SOURCE_ROOT; };
+		6DD8773C1A91BB4E00A3EC44 /* textRead.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = textRead.cpp; sourceTree = "<group>"; };
+		6DD8773D1A91BB4E00A3EC44 /* textRead.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = textRead.h; sourceTree = "<group>"; };
+		6DD8773F1A91BBAC00A3EC44 /* texture.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = texture.cpp; sourceTree = "<group>"; };
+		6DD877401A91BBAC00A3EC44 /* texture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = texture.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6DD877231A91B8CF00A3EC44 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DD877321A91B8F300A3EC44 /* GLUT.framework in Frameworks */,
+				6DD877331A91B8F300A3EC44 /* OpenGL.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6DD8771D1A91B8CF00A3EC44 = {
+			isa = PBXGroup;
+			children = (
+				6DD877301A91B8F300A3EC44 /* GLUT.framework */,
+				6DD877311A91B8F300A3EC44 /* OpenGL.framework */,
+				6DD877281A91B8CF00A3EC44 /* chapTangetSpace01_meshTangent */,
+				6DD877271A91B8CF00A3EC44 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6DD877271A91B8CF00A3EC44 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6DD877261A91B8CF00A3EC44 /* chapTangetSpace01_meshTangent */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6DD877281A91B8CF00A3EC44 /* chapTangetSpace01_meshTangent */ = {
+			isa = PBXGroup;
+			children = (
+				6DD877291A91B8CF00A3EC44 /* main.cpp */,
+				6DD877341A91B93800A3EC44 /* STBImage.cpp */,
+				6DD877351A91B93800A3EC44 /* STBImage.h */,
+				6DD877371A91BA1500A3EC44 /* mesh.cpp */,
+				6DD877381A91BA1500A3EC44 /* mesh.h */,
+				6DD8773A1A91BB0700A3EC44 /* shader.vert */,
+				6DD8773B1A91BB1E00A3EC44 /* shader.frag */,
+				6DD8773C1A91BB4E00A3EC44 /* textRead.cpp */,
+				6DD8773D1A91BB4E00A3EC44 /* textRead.h */,
+				6DD8773F1A91BBAC00A3EC44 /* texture.cpp */,
+				6DD877401A91BBAC00A3EC44 /* texture.h */,
+			);
+			path = chapTangetSpace01_meshTangent;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6DD877251A91B8CF00A3EC44 /* chapTangetSpace01_meshTangent */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6DD8772D1A91B8CF00A3EC44 /* Build configuration list for PBXNativeTarget "chapTangetSpace01_meshTangent" */;
+			buildPhases = (
+				6DD877221A91B8CF00A3EC44 /* Sources */,
+				6DD877231A91B8CF00A3EC44 /* Frameworks */,
+				6DD877241A91B8CF00A3EC44 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = chapTangetSpace01_meshTangent;
+			productName = chapTangetSpace01_meshTangent;
+			productReference = 6DD877261A91B8CF00A3EC44 /* chapTangetSpace01_meshTangent */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6DD8771E1A91B8CF00A3EC44 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "young-min kang";
+				TargetAttributes = {
+					6DD877251A91B8CF00A3EC44 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+				};
+			};
+			buildConfigurationList = 6DD877211A91B8CF00A3EC44 /* Build configuration list for PBXProject "chapTangetSpace01_meshTangent" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6DD8771D1A91B8CF00A3EC44;
+			productRefGroup = 6DD877271A91B8CF00A3EC44 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6DD877251A91B8CF00A3EC44 /* chapTangetSpace01_meshTangent */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6DD877221A91B8CF00A3EC44 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DD8772A1A91B8CF00A3EC44 /* main.cpp in Sources */,
+				6DD877361A91B93800A3EC44 /* STBImage.cpp in Sources */,
+				6DD8773E1A91BB4E00A3EC44 /* textRead.cpp in Sources */,
+				6DD877391A91BA1500A3EC44 /* mesh.cpp in Sources */,
+				6DD877411A91BBAC00A3EC44 /* texture.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		6DD8772B1A91B8CF00A3EC44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		6DD8772C1A91B8CF00A3EC44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		6DD8772E1A91B8CF00A3EC44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6DD8772F1A91B8CF00A3EC44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6DD877211A91B8CF00A3EC44 /* Build configuration list for PBXProject "chapTangetSpace01_meshTangent" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6DD8772B1A91B8CF00A3EC44 /* Debug */,
+				6DD8772C1A91B8CF00A3EC44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6DD8772D1A91B8CF00A3EC44 /* Build configuration list for PBXNativeTarget "chapTangetSpace01_meshTangent" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6DD8772E1A91B8CF00A3EC44 /* Debug */,
+				6DD8772F1A91B8CF00A3EC44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6DD8771E1A91B8CF00A3EC44 /* Project object */;
+}

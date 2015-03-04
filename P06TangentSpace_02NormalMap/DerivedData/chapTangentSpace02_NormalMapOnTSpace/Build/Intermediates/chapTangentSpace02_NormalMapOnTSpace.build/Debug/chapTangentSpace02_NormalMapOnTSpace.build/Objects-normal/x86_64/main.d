@@ -1,0 +1,5 @@
+dependencies: \
+  /Users/ymkang/myWork_iMac/Mac_3_DocsPresentation/교재개발/OGL_ExampleCode/chapTangentSpace02_NormalMapOnTSpace/chapTangentSpace02_NormalMapOnTSpace/main.cpp \
+  /Users/ymkang/myWork_iMac/Mac_3_DocsPresentation/교재개발/OGL_ExampleCode/chapTangentSpace02_NormalMapOnTSpace/chapTangentSpace02_NormalMapOnTSpace/textRead.h \
+  /Users/ymkang/myWork_iMac/Mac_3_DocsPresentation/교재개발/OGL_ExampleCode/chapTangentSpace02_NormalMapOnTSpace/chapTangentSpace02_NormalMapOnTSpace/texture.h \
+  /Users/ymkang/myWork_iMac/Mac_3_DocsPresentation/교재개발/OGL_ExampleCode/chapTangentSpace02_NormalMapOnTSpace/chapTangentSpace02_NormalMapOnTSpace/mesh.h
