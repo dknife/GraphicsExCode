@@ -6,6 +6,7 @@
 #include <OpenGL/OpenGL.h>
 #include <GLUT/GLUT.h>
 #endif
+// Graphics Test
 
 void myDisplay() {
     glClear(GL_COLOR_BUFFER_BIT);
